@@ -5,7 +5,16 @@
 注意和的结果数据表示范围, 结果的进制转换等问题
 
 1. 尝试结果分别放在寄存器,数据段,栈中等不同位置的操作
-2. 完成十进制结果输出(查找21号中断的功能表,找到输入数据的功能调用)
+
+![alt text](readme_img/image.png)
+
+![alt text](readme_img/image-1.png)
+
+![alt text](readme_img/image-2.png)
+
+2. 输入一个数a, 输出 1 - a 的和(查找21号中断的功能表,找到输入数据的功能调用)
+
+* 21号中断的功能表:
 
 | AH | 功能描述 | 入口参数 | 出口参数 |
 |--------|----------|----------|----------|
@@ -30,13 +39,11 @@
 | 43h | 获取 / 设置文件属性 | AL=00h（获取）/01h（设置），DS:DX = 文件名 | 成功：CF=0，CX = 文件属性；失败：CF=1 |
 | 57h | 获取 / 设置文件修改时间 | AL=00h（获取）/01h（设置），BX = 文件句柄 | 成功：CF=0，CX:DX = 时间；失败：CF=1 |
 
-![alt text](readme_img/image.png)
+* 使用结果存储在寄存器中的版本`sum_r`修改得到:
 
-![alt text](readme_img/image-1.png)
+![alt text](readme_img/image-4.png)
 
-![alt text](readme_img/image-2.png)
-
-3. 用C语言实现后查看反汇编代码并加注释
+1. 用C语言实现后查看反汇编代码并加注释
 
 ```shell
 gcc sum_c.c -o sum_c.exe
