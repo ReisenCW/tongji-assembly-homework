@@ -1,1 +1,3 @@
 *.EXE
+!HELLO.EXE
+*.OBJ
