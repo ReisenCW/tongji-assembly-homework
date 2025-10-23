@@ -1,3 +1,4 @@
 *.EXE
-!print_*.EXE
 *.OBJ
+!sum_*.asm
+!sum_*.exe
