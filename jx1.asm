@@ -1,0 +1,14 @@
+	DATA SEGMENT
+	MSG DB "hello world!$"
+	DATA ENDS
+	CODE SEGMENT	
+   ASSUME CS:CODE
+START:   	MOV AX,DATA
+   			MOV DS,AX
+   			MOV AL,[0H]
+   			SHL AX,1
+   			;PUSH 1122h
+			MOV AX,4100H
+			INT 21h
+	CODE ENDS
+    END  START
