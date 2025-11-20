@@ -1,2 +1,8 @@
 *.EXE
 *.OBJ
+!CORREC.EXE
+!CORREC.OBJ
+!MULTI_A.EXE
+!MULTI_A.OBJ
+!multi.exe
+!correction.exe

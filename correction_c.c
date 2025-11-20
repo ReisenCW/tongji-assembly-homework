@@ -1,10 +1,7 @@
-#include "stdlib.h"
 #include "stdio.h"
-
-void check_table(int table[9][9]);
+#include "stdlib.h"
 
 int main() {
-    // 用于检错的数据
     int table[9][9] = {
         7,2,3,4,5,6,7,8,9,
         2,4,7,8,10,12,14,16,18,
@@ -16,20 +13,14 @@ int main() {
         8,16,24,32,40,48,56,7,72,
         9,18,27,36,45,54,63,72,81
     };
-    check_table(table);
-    return 0;
-}
-
-void check_table(int table[9][9]) {
-    printf("x y\n");
-    for(int i = 0; i < 9; i++) {
-        for(int j = 0; j < 9; j++) {
-            int correct_value = (i + 1) * (j + 1);
-            if(table[i][j] != correct_value) {
-                printf("%d  %d      error\n", i + 1, j + 1);
+    const char* error = "error";
+    printf("x  y\n");
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 9; j++) {
+            if (table[i][j] != (i + 1) * (j + 1)) {
+                // 打印x y  error
+                printf("%d  %d   %s\n", i + 1, j + 1, error);
             }
         }
     }
-    printf("accomplish!\n");
 }
-

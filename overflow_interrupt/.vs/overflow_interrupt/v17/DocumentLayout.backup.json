@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\my_asm\\overflow_interrupt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA5638F4-DDAC-40F1-8455-0E40F2799251}|overflow_interrupt.vcxproj|D:\\my_asm\\overflow_interrupt\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA5638F4-DDAC-40F1-8455-0E40F2799251}|overflow_interrupt.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 388,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "D:\\my_asm\\overflow_interrupt\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "D:\\my_asm\\overflow_interrupt\\main.c*",
+              "RelativeToolTip": "main.c*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-20T11:04:46.198Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
