@@ -1,6 +1,0 @@
-﻿  main.c
-D:\my_asm\overflow_interrupt\main.c(35,4): warning C4409: 非法的指令大小
-D:\my_asm\overflow_interrupt\main.c(59,4): warning C4409: 非法的指令大小
-D:\my_asm\overflow_interrupt\main.c(83,4): warning C4409: 非法的指令大小
-D:\my_asm\overflow_interrupt\main.c(107,4): warning C4409: 非法的指令大小
-  overflow_interrupt.vcxproj -> D:\my_asm\overflow_interrupt\Debug\overflow_interrupt.exe
